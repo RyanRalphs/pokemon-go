@@ -1,0 +1,22 @@
+{
+  "name": "pokemon-go",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "test": "jest --watchAll"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "express": "^4.17.2",
+    "postman-request": "^2.88.1-postman.31",
+    "supertest": "^6.2.2"
+  }
+}
